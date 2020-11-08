@@ -1,0 +1,8 @@
+#A is FromPoint B is ToPoint, [x, y] is a hit point
+
+if min(x, xa) <= xb <= max(x, xa) and min(y, ya) <= yb <= max(y, ya):
+            return True
+        elif min(xa, xb) <= x <= max(xb, xa) and min(yb, ya) <= y <= max(yb, ya):
+            return True
+        else:
+            return False
